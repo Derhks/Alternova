@@ -33,3 +33,51 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+#view-jokes {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  border-color: cornflowerblue;
+}
+
+#jokes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#get-jokes, #my-jokes {
+  width: 40%;
+}
+
+button {
+  width: 70%;
+  text-align: center;
+}
+
+#signup-button {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+#signup {
+  width: 25rem;
+  border-style: solid;
+  border-color: cornflowerblue;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+}
+
+#magic-link {
+  margin-bottom: 16px;
+}
+
+#input-email {
+  margin-bottom: 16px;
+}
